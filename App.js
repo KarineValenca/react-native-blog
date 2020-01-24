@@ -5,6 +5,8 @@ import IndexScreen from './src/screens/IndexScreen'
 import ShowScreen from './src/screens/ShowScreen'
 import CreateScreen from './src/screens/CreateScreen'
 import { Provider } from './src/context/BlogContext'
+import { Notifications } from 'expo';
+import * as Permissions from 'expo-permissions';
 
 const navigator = createStackNavigator(
   {
